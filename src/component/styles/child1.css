@@ -1,0 +1,36 @@
+.child1{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;    
+    gap:1rem
+    
+
+}
+
+.header{
+    background-color: red;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+.sidebar{
+    background-color: aqua;
+}
+.main{
+    background-color:blue;
+}
+.aside{
+    background-color: brown;
+}
+.footer{
+    background-color: burlywood;
+    grid-column: 1/4;
+}
+.child1 div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: bolder;
+}
