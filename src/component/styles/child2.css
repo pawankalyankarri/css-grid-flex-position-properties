@@ -1,6 +1,6 @@
 .child2{
     width: 100%;
-    height: 100vh;
+    height: 100vh ;
     display: grid;
     grid-template-areas: "c1 c2 c2 c3"
                          "c1 c4 c5 c6"
