@@ -6,6 +6,7 @@ const Navbar = () => {
             <ul>
                 <li><NavLink to='c1'>Child1</NavLink></li>
                 <li><NavLink to='c2'>Child2</NavLink></li>
+                <li><NavLink to='c3'>flex&grid</NavLink></li>
                 <li></li>
                 <li></li>
             </ul>
